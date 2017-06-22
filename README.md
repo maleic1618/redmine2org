@@ -1,6 +1,6 @@
 ## redmine2org
 
-Redmineの残チケットをそれっぽい感じでorgに出力する
+Redmineのチケットをそれっぽい感じで表示
 
 ### How to Use
 
@@ -10,6 +10,9 @@ Redmineの残チケットをそれっぽい感じでorgに出力する
     
 2. secretkey.pyを編集する
 
-3. 実行する
+### Keybind
 
-> python3 main.py > output.org
+| v       | チケットの詳細を表示 |
+| SPACE   | スクロール           |
+| S-SPACE | 逆向きスクロール     |
+
