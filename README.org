@@ -1,16 +1,21 @@
-## redmine2org
+#+TITLE: redmine2org
+#+AUTHOR: @maleic1618
 
 Redmineのチケットをそれっぽい感じで表示
 
-### How to Use
+* How to Use
 
 1. python-redmineをインストールする。
 
-> sudo pip3 install python-redmine
-    
+#+BEGIN_SRC
+
+    sudo pip3 install python-redmine
+
+#+END_SRC
+
 2. secretkey.pyを編集する
 
-### Keybind
+* Keybind
 
 | v       | チケットの詳細を表示 |
 | SPACE   | スクロール           |
